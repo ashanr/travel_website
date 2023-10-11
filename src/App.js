@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Homepage from './components/Homepage';
 import ContactPage from './components/ContactPage';
-import Layout from './components/Layout';
+import Layout from './components/layout/Layout';
 
 function App() {
   return (
